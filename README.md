@@ -16,6 +16,12 @@ Pirate Fleet is a [Battleship](https://en.wikipedia.org/wiki/Battleship_(game)) 
 
 Pay attention to `ControlCenter.swift`. This is where you should direct your edits and implement functionality related to the project. Otherwise, there are no special setup instructions, just build and run!
 
+## Citations
+
+[Swift Language Guide] (https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)
+
+Udacity Discussion Forum
+
 ## Maintainers
 
 @jarrodparkes
