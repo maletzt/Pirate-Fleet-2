@@ -56,7 +56,7 @@ var hitTracker: HitTracker
         self.isWooden = false
         self.hitTracker = HitTracker()
     }
-    init(length: Int, location: GridLocation, isVertical: Bool, hitTracker: HitTracker) {
+    init(length: Int, location: GridLocation, isVertical: Bool) {
         self.length = length
         self.location = location
         self.isVertical = isVertical
@@ -114,7 +114,7 @@ struct SeaMonster: PenaltyCell {
     init(location: GridLocation) {
         self.location = location
         self.guaranteesHit = true
-        self.penaltyText = "Uaaaah!"
+        self.penaltyText = "Uaaaah! A sea monster has been hit!"
     }
     
 }
